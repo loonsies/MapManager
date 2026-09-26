@@ -1,12 +1,10 @@
-﻿global using ComplexLogger;
-
-using MapManager.Patches;
+﻿using MapManager.Patches;
 
 namespace MapManager
 {
     internal class Main : MelonMod
     {
-        public static ComplexLogger<Main> Logger = new ComplexLogger<Main>();
+        public static void Log(string message) => MelonLogger.Log(message);
         public override void OnInitializeMelon()
         {
             Settings.OnLoad();

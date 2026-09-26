@@ -12,7 +12,7 @@
         /// <summary>Name used on GUI's, like ModSettings</summary>
         public const string GUIName                 = "Map Manager";
         /// <summary>The minimum Melon Loader version that your mod requires</summary>
-        public const string MelonLoaderVersion      = "0.6.1";
+        public const string MelonLoaderVersion      = "0.5.7";
         #endregion
         #region Optional
         /// <summary>What the mod does</summary>

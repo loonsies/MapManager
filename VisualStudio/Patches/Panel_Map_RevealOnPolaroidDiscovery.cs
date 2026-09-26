@@ -5,7 +5,7 @@
     {
         private static bool Prefix(ref string polaroidGearItemName, ref bool showOnMap)
         {
-            Main.Logger.Log($"polaroidGearItemName: {polaroidGearItemName}. showOnMap: {showOnMap}", FlaggedLoggingLevel.Debug);
+            MelonLogger.Log($"polaroidGearItemName: {polaroidGearItemName}. showOnMap: {showOnMap}");
             return !Settings.Instance.MapWithPolariods;
         }
     }
